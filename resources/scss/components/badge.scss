@@ -1,0 +1,31 @@
+.badge{
+    @apply inline-block px-3 text-sm font-semibold tracking-wide text-white rounded-full;
+
+    &.badge-primary{
+        @apply text-primary-100 bg-primary-500 dark:bg-primary-700;
+    }
+
+    &.badge-secondary{
+        @apply text-primary-50  bg-secondary-500 dark:bg-secondary-600;
+    }
+
+    &.badge-success{
+        @apply text-success-100  bg-success-600 dark:bg-success-700;
+    }
+
+    &.badge-danger{
+        @apply text-danger-100 bg-danger-500 dark:bg-danger-800;
+    }
+
+    &.badge-warning{
+        @apply text-warning-100  bg-warning-400 dark:bg-warning-700;
+    }
+
+    &.badge-info{
+        @apply text-info-100  bg-info-500 dark:bg-info-600;
+    }
+
+    &.badge-disabled{
+        @apply cursor-not-allowed text-secondary-500 dark:text-secondary-400 bg-secondary-300 dark:bg-secondary-500;
+    }
+}

@@ -1,0 +1,31 @@
+.btn{
+    @apply inline-flex items-center transition-all duration-300 px-3 py-2 shadow-lg cursor-pointer rounded-2xl;
+
+    &.btn-primary{
+        @apply text-primary-100 hover:bg-primary-600 bg-primary-500 dark:bg-primary-700 dark:hover:bg-primary-800;
+    }
+
+    &.btn-secondary{
+        @apply text-primary-50 hover:bg-secondary-600 bg-secondary-500 dark:bg-secondary-600 dark:hover:bg-secondary-700;
+    }
+
+    &.btn-success{
+        @apply text-success-100 hover:bg-success-700 bg-success-600 dark:bg-success-700 dark:hover:bg-success-800;
+    }
+
+    &.btn-danger{
+        @apply text-danger-100 hover:bg-danger-600 bg-danger-500 dark:bg-danger-800 dark:hover:bg-danger-900;
+    }
+
+    &.btn-warning{
+        @apply text-warning-100 hover:bg-warning-500 bg-warning-400 dark:bg-warning-700 dark:hover:bg-warning-800;
+    }
+
+    &.btn-info{
+        @apply text-info-100 hover:bg-info-600 bg-info-500 dark:bg-info-600 dark:hover:bg-info-700;
+    }
+
+    &.btn-disabled{
+        @apply cursor-not-allowed text-secondary-500 dark:text-secondary-800 bg-secondary-300 dark:bg-secondary-500;
+    }
+}

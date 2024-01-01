@@ -1,0 +1,73 @@
+.card {
+    @apply  max-w-full mx-auto overflow-hidden bg-white shadow-md dark:bg-dark-3 dark:text-slate-300 rounded-xl;
+
+    &.card-primary {
+        @apply border-t-4 border-primary-600 dark:border-primary-400;
+    }
+    &.card-secondary {
+        @apply border-t-4 border-secondary-600 dark:border-secondary-400;
+    }
+    &.card-success {
+        @apply border-t-4 border-success-600 dark:border-success-600;
+    }
+    &.card-info {
+        @apply border-t-4 border-info-600 dark:border-info-600;
+    }
+    &.card-danger {
+        @apply border-t-4 border-danger-600 dark:border-danger-500;
+    }
+
+
+}
+
+.card-title {
+    @apply  px-6 py-3 text-xl font-semibold leading-relaxed border-b dark:border-dark-2 ;
+}
+
+.card-sub-title {
+    @apply px-6 text-sm font-medium text-dark-1 dark:text-secondary-700;
+}
+
+.card-body{
+    @apply py-4 px-6
+}
+
+// .card-footer {
+//     @apply text-xs p-2 rounded-b-md;
+
+//     &.card-footer-gray {
+//         @apply bg-slate-600 text-white;
+//     }
+
+//     &.card-footer-danger {
+//         @apply bg-red-600 text-white;
+//     }
+
+//     &.card-footer-warning {
+//         @apply bg-yellow-600 text-white;
+//     }
+
+//     &.card-footer-success {
+//         @apply bg-green-600 text-white;
+//     }
+
+//     &.card-footer-info {
+//         @apply bg-blue-600 text-white;
+//     }
+
+//     &.card-footer-indigo {
+//         @apply bg-indigo-600 text-white;
+//     }
+
+//     &.card-footer-purple {
+//         @apply bg-purple-600 text-white;
+//     }
+
+//     &.card-footer-pink {
+//         @apply bg-pink-600 text-white;
+//     }
+// }
+
+// .central-card {
+//     @apply bg-white dark:bg-slate-700 p-10 rounded-lg shadow-lg w-full lg:w-1/2 mx-auto
+// }

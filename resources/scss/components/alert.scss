@@ -1,0 +1,21 @@
+.alert {
+    @apply rounded-lg shadow-lg text-base font-semibold p-4 my-3 mb-5;
+
+    &.alert-primary {
+        @apply bg-primary-500 dark:bg-primary-800 text-primary-100;
+    }
+    &.alert-danger {
+        @apply bg-danger-500 dark:bg-danger-900 text-danger-100;
+    }
+    &.alert-success {
+        @apply bg-success-500 dark:bg-success-700 text-success-100;
+    }
+    &.alert-warning {
+        @apply bg-warning-500 dark:bg-warning-800 text-warning-100;
+    }
+    &.alert-info {
+        @apply bg-info-500 dark:bg-info-800 text-info-100;
+    }
+
+
+}
