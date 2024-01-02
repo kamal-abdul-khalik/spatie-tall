@@ -7,6 +7,27 @@
 
     <div class="py-12">
         <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Nama</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Kamal</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Kamal</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="mt-6"></div>
+            <div class="card">
+            </div>
             <div class="card">
                 <div class="card-title">{{ __("You're logged in!") }}</div>
                 <div class="card-body">{{ __("You're logged in!") }}</div>
